@@ -111,7 +111,7 @@
     width: 400px;
     background-color: white;
     margin-right: 30px;
-    height: 450px;
+    height: 500px;
     margin-left: 180px;
     margin-top: 30px;
     float: left;
@@ -124,7 +124,7 @@
     margin-right: 30px;
     margin-top: 30px;
     float: left;
-    height: 450px;
+    height: 500px;
     padding: 10px;
   
 }
@@ -134,7 +134,7 @@
     margin-right: 50px;
     margin-top: 30px;
     float: left;
-    height: 450px;
+    height: 500px;
     padding: 10px;
 }
 .footer{
@@ -153,6 +153,11 @@
 .text-center{
     text-align: center;
 }
+img{
+    border-radius: 50%;
+    margin: 15px;
+}
+
 
    
 
