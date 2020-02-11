@@ -1,0 +1,158 @@
+
+:root{
+    --name : blue
+}
+*{
+        
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: var (--name);
+    }
+
+    .logo-div{
+        float: left;
+        margin-right:0px; 
+        font-family: monospace;
+    }
+    .logo{
+        font-size: 50px;
+        color: white;
+        text-shadow: 10, 20px, rgb(224, 65, 65) ;
+    }
+    .navigation{
+        background-color:  rgb(49, 42, 42);
+        height: 60px;
+
+    }
+    .nav-items{
+        float: left;
+    }
+    .nav-items > ul > li{
+        display: inline-block;
+        padding-top: 20px;
+        padding-left: 40px;
+        font-size: 22px;
+        
+    }
+    .nav-items > ul > li >a{
+        text-decoration: none;
+        color: white;
+    }
+    .nav-items > ul > li :hover{
+        color: blanchedalmond;
+    }
+    .unorderd-list{
+        list-style-type: none;
+    }
+    .right-div{
+        float: right;
+    }
+    .right-div > ul >li{
+        display: inline-block;
+        padding-left: 40px;
+        padding-top: 20px;
+        font-size: 22px;
+        
+    }
+    .right-div > ul >li >a{
+        text-decoration: none;
+        color: white;
+    
+
+    }
+    .right-div > ul > li :hover{
+       
+        color: blanchedalmond;
+    
+    }
+    input[type='text']{
+        width: 400px;
+        height: 25PX;
+        border-radius: 8px;
+        color: black;
+    }
+    .call-to-action{
+        float: none;
+        background-color: rgb(230, 104, 104);
+        text-align: center;
+    }
+    .action-btn{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 200px;
+        height: 50px;
+        color: rgb(26, 16, 16);
+        background-color: blanchedalmond;
+        border: none;
+        font-size: 25px;
+        font-family: monospace;
+    }
+    .action-btn:hover{
+        width: 200px;
+        height: 50px;
+        color: rgb(206, 22, 22);
+        background-color: rgb(179, 156, 156);
+        border: none;
+        font-size: 25px;
+        font-family: monospace;
+        color: white;
+    }
+
+.info{
+    width: 100%;
+    height: 550px;
+    background-color: blanchedalmond;
+   
+
+}
+.info-1{
+    width: 400px;
+    background-color: white;
+    margin-right: 30px;
+    height: 450px;
+    margin-left: 180px;
+    margin-top: 30px;
+    float: left;
+    padding: 10px;
+   
+}
+.info-2{
+    width: 400px;
+    background-color: white;
+    margin-right: 30px;
+    margin-top: 30px;
+    float: left;
+    height: 450px;
+    padding: 10px;
+  
+}
+.info-3{
+    width: 350px;
+    background-color: white;
+    margin-right: 50px;
+    margin-top: 30px;
+    float: left;
+    height: 450px;
+    padding: 10px;
+}
+.footer{
+    clear: right;
+    background-color: rgb(49, 42, 42);
+    color: white;
+    height: 120px;
+}
+.copy{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(20, 17, 17, 0.603);
+}
+.text-center{
+    text-align: center;
+}
+
+   
+
