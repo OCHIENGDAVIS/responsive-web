@@ -1,0 +1,43 @@
+
+#position1{
+    background: yellow;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+#position2{
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    background: black;
+    color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+#position3{
+    background: green;
+    color: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -180px;
+    left: 10px;
+    border-radius: 10px;
+}
+#position4{
+    background: blue;
+    color: white;
+    width: 200px;
+    height: 205px;
+    position: relative;
+    left: 20px;
+    top: -350px;
+    border-radius: 10px;
+    
+}
+#text2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
