@@ -5,6 +5,9 @@
     height: 200px;
     border-radius: 10px;
 }
+#position1:hover{
+    transform: scale(2);
+}
 #position2{
     position: absolute;
     top: 0px;
@@ -15,6 +18,9 @@
     height: 200px;
     border-radius: 10px;
 }
+#position2:hover{
+    transform: scale(2);
+}
 #position3{
     background: green;
     color: white;
@@ -24,6 +30,9 @@
     top: -180px;
     left: 10px;
     border-radius: 10px;
+}
+#position3:hover{
+    transform: rotate(20deg);
 }
 #position4{
     background: blue;
@@ -36,8 +45,12 @@
     border-radius: 10px;
     
 }
+#position4:hover{
+    transform: scale(2);
+}
 #text2{
     position: absolute;
     bottom: 0;
     right: 0;
+
 }

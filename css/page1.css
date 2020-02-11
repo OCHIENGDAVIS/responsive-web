@@ -1,10 +1,7 @@
-div{
-    background: rgba(109, 62, 109, 0.664);
-    color: white;
-}
+
 #quote{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+   
 }
 .movie{
     color: white;
@@ -19,16 +16,20 @@ span#author{
 #skills ul li {
     color: blanchedalmond;
 }
- h3 + p{
+h3 + p{
      font-size: 2em;
  }
  p[id]{
      background: green;
  }
  #lorem{
-     background: black;
+     background: white;
      color: white;
-     border: 1px dashed red;
+     box-shadow: 6px 6px  6px gray;
      padding: 10px 30px; 
      margin: 5px auto;
+ }
+ .see-me  ul  li:nth-child(2n) {
+    color: blue;
+    background: white;
  }
