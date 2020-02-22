@@ -24,3 +24,39 @@ body{
     list-style-type: none;
     box-sizing: border-box;
 }
+/* CSS3 Selectors */
+li[rel*='fri']{
+    color: red;
+}
+p[rel]{
+    color: red;
+}
+h2 ~ p{
+    color: green;
+    font-size: 2rem;
+} */
+#pseudo li{
+    color: rgb(53, 83, 53);
+}
+
+p:not(:first-child){
+    font-style: italic;
+}
+input[type='text']:enabled{
+    border: 1px solid red;
+}
+input[type='text']:disabled{
+    border: 1px solid green;
+}
+input[type='radio']:checked{
+    color: red;
+    font-size: 3rem;
+}
+legend{
+    color: red;
+    font-size: 1.5rem;
+   
+}
+
+
+

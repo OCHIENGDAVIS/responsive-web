@@ -20,3 +20,6 @@
         justify-content: center;
     }
 }
+a[rel~='friend']{
+    color: red;
+}
